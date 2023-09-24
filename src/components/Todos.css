@@ -1,0 +1,105 @@
+.card-list
+{
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+
+.cardFlow
+{
+    margin-top:3rem;
+}
+
+.priority
+{
+    margin-left:0.6rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.priority-size
+{
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left:0.7rem;
+}
+
+.priority-heading 
+{
+    display: flex;
+    flex-direction: row;
+    color:rgb(95, 95, 95);
+    align-items: center;
+    margin-left:2rem;
+}
+
+.priority-icon-heading-4
+{
+    margin-right:0.1rem;
+    color:red;
+}
+
+.priority-icon-heading-3
+{
+    color:black;
+}
+
+.priority-icon-heading-2
+{
+    color:rgb(77, 77, 77)
+}
+
+.priority-icon-heading-1
+{
+    color:rgb(151, 151, 151);
+}
+
+.add
+{
+    margin-left:auto;
+    margin-right:0.9rem;
+}
+
+.usericon
+{
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.userBox {
+    width: 1rem;
+    height: 1rem;
+    min-width: 1rem; 
+    min-height: 1rem;
+    border-radius: 50%;
+    padding: 0.28rem;
+    padding-bottom: 0.4rem;
+    background-color: rgb(118, 118, 118);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.usericonavaialable{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 16px;
+    margin-top: 16px;
+    color: green;
+}
+
+.ua{
+    align-items: center;
+    border-radius: 100%;
+    margin-top:2px;
+    margin-left:2px;
+    width:6px;
+    height:6px;
+    background-color: green;
+}

@@ -1,0 +1,133 @@
+.card {
+    background-color: white;
+    width: 17rem;
+    padding: 2%;
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+    margin-bottom: 0.8rem;
+    font-size: 0.8rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 0.8rem;
+    height: 5.55rem;
+    position: relative;
+}
+
+.in-card
+{
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.87rem;
+}
+
+.titleHeader,
+.statusHeader {
+    display: flex;
+}
+
+.statusHeader
+{
+    position: absolute;
+    bottom:0;
+    margin-bottom:0.6rem;
+}
+
+.titleHeader {
+    font-weight: 600;
+    font-size: 0.87rem;
+    margin-top:0.3rem;
+}
+
+.titleicon {
+    margin-right: 1rem;
+    margin-top: 0.3rem;
+}
+
+.titleicon-0 {
+    color: rgb(117, 117, 117);
+}
+
+.titleicon-1 {
+    color: rgb(236, 169, 45);
+}
+
+.titleicon-2 {
+    color: rgb(50, 50, 198);
+}
+
+.titleicon-3 {
+    color: rgb(138, 156, 169);
+}
+
+.ticket-id {
+    margin-bottom: 0.3rem;
+    color: rgb(145, 145, 145);
+}
+
+.priority-icon-box {
+    border: 0.08rem solid rgb(235, 235, 235);
+    width: fit-content;
+    margin-right: 0.5rem;
+    border-radius: 0.2rem;
+    padding: 0.1rem 0.2rem;
+    text-align:center;
+}
+
+.status-box {
+    display: flex;
+    align-items: center;
+    border: 0.08rem solid rgb(231, 231, 231);
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+}
+
+.status-icon {
+    margin-right: 0.3rem;
+    font-size:0.6rem;
+    margin-top:0.1rem;
+    color: rgb(151, 151, 151);
+}
+
+.priority-icon-4 {
+    margin-right: 0.1rem;
+    color: red;
+}
+
+.priority-icon-3 {
+    color: black;
+}
+
+.priority-icon-2 {
+    color: rgb(77, 77, 77)
+}
+
+.priority-icon-1 {
+    color: rgb(151, 151, 151);
+}
+
+.usertitle-icon
+{
+    position: absolute;
+    right:0;
+    margin-right:0.5rem;
+}
+
+.ticket-header
+{
+    display: flex;
+    position: relative;
+}
+
+.usericon 
+{
+    font-size: 0.8rem;
+    padding-bottom:0.01rem;
+}
+
